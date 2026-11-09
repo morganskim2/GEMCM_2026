@@ -1,1 +1,4 @@
-
+.joblib files of random forest regression (ensemble models) created with scikit-learn (v1.3.0)
+'ParitySet' .csv files contain actual versus predicted 'PA14_Biomass' and 'DM_cpd01206_c' (pyocyanin synthesis) fluxes for the hold-out FBA training data. File name denotes their ensemble presence
+'GammaXX' corresponds to the value of the upper biomass flux threshold for the objective decision tree during FBA simulation (see Figure 4 in manuscript)
+'Gamma02_GlucArgMet_WT.joblib' was prepared for random forest regression evaluation (see Figure S.6 in manuscript), but was not used for GEM-CM simulations.
