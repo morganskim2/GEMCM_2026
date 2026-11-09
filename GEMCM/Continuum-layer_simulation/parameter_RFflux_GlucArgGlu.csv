@@ -1,0 +1,4 @@
+﻿Parameter,Nutr1_Arg,Nutr2_Glu,Nutr3_Glucose
+v_max (mmol/gDW/h),2.678957451,4.863191312,9.856962298
+v_max / k_s,638.1329668,585.5323134,573.8940063
+c_0 (mM),0.25,1.7,22.2
