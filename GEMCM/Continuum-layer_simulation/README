@@ -1,0 +1,5 @@
+Directory contents provides file objects for the representative run in the Python file 'GEM_CM_V1.py'
+GEM-CM simulation takes in 1) a trained ensemble model, 2) a PDE parameter initialization file "parameter_(ensemble)_(swim plate experiment).csv", and 3) metabolite parameters "parameter_RFflux_*.csv"
+Inputs can be altered by updating the PDE parameter initialization file and metabolite parameter file.
+
+The PDE parameter initialization file prepares a dictionary object for multiprocessing to evaluate batches of GEM-CM simulations. Python file outputs record all species concentration/density at 15 minute intervals as well as PA14 growth rate and pyocyanin production.
