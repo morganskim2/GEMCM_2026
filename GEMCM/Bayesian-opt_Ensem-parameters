@@ -1,5 +1,0 @@
-Bayesian optimization seeks to fit Monod parameters (v_max, k_S) converting metabolite concentration to metabolite mass flux. Python files perform dynamic simulations using PA14 wild type ensemble models that seek to mirror agitated liquid culture experiments performed in McGill et al 2021 (https://doi.org/10.1038/s41598-020-80522-8). The loss function is defined as the residual errors between measured and predicted concentrations at discrete time points.
-
-Bayesian optimization results are reported for n = 50 candidates in "BayesOpt*.xlsx" files.
-
-If Monod parameters for a metabolite/exchange reaction were needed and the metabolite/exchange reaction was not part of the original set of important carbon sources. A unique random forest regression was prepared with n > 3 training features. This was practiced with methionine; however, only the methionine v_max and k_S were extracted from "BayesOpt_WT_GlucArgGluMet.xlsx". All other Monod parameters were still informed by optimization results in "BayesOpt_WT_GlucArgGlu.xlsx".
