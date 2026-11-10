@@ -1,0 +1,15 @@
+Image data processed using Experiment_ProfileFeat.ipynb
+
+Timelapse contents:
+- Biomass density profiles for swim plate macrocolonies for 6-20 hours (scaled by average biomass density)
+- Macrocolony spreading distance over time
+- Bulk biomass density dynamics (scaled by average biomass density)
+- Measured biomass density and pyocyanin at t = 20 hours
+
+Single-tpoint contents:
+- Biomass density profiles for swim plate macrocolonies at t = 20 hours
+- Measured biomass density and pyocyanin at t = 20 hours
+
+Growth-curve_M9Glucose.xlsx: OD600 absorbance of 96-well PA14-wild type and del metH in M9-glucose
+
+Pyocyanin-Discrete-tpoints_M9Glucose.csv: Measured pyocyanin concentration in swim plate assays at t = 10, 16, and 20 hours
